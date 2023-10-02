@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Onlyface - Where Beauty Meets Approval!</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Onlyface is a revolutionary app that redefines social networking through the power of beauty and community approval."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,11 +27,10 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Onlyface Benefits"
+        title=" Why should you use this app">
+        Unlock a world of authentic connections on Onlyface, where your unique beauty opens the door to meaningful relationships. Sign up today with just a selfie, enter our curated community, and experience connections that matter. Our exclusive approval system, where more than some of our vibrant community gives the green light, ensures you join a network of good-looking individuals who appreciate genuine connections. Embrace your beauty and find your tribe – Onlyface, where real connections begin.
+
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
