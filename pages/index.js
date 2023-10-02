@@ -32,9 +32,9 @@ const Home = () => {
         Unlock a world of authentic connections on Onlyface, where your unique beauty opens the door to meaningful relationships. Sign up today with just a selfie, enter our curated community, and experience connections that matter. Our exclusive approval system, where more than some of our vibrant community gives the green light, ensures you join a network of good-looking individuals who appreciate genuine connections. Embrace your beauty and find your tribe – Onlyface, where real connections begin.
 
       </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
+      {/* <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} /> */}
+      {/* <SectionTitle
         pretitle="Watch a video"
         title="Learn how to fullfil your needs">
         This section is to highlight a promo or demo video of your product.
@@ -54,7 +54,7 @@ const Home = () => {
         conversion rate as well as support or chat requests.
       </SectionTitle>
       <Faq />
-      <Cta />
+      <Cta /> */}
       <Footer />
       <PopupWidget />
     </>
