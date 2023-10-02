@@ -93,7 +93,6 @@ const Navbar = () => {
               Get Started
           </Link>
 
-          <ThemeChanger />
         </div>
       </nav>
     </div>
