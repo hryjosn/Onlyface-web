@@ -7,54 +7,31 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import stepOneImg from "../public/img/deleteAccountStep/step1.png";
+import stepTwoImg from "../public/img/deleteAccountStep/step2.png";
+import stepThreeImg from "../public/img/deleteAccountStep/step3.png";
+import stepFourImg from "../public/img/deleteAccountStep/step4.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
-  bullets: [
-    {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
-    },
-  ],
+  title: "Step 1",
+  desc: "Click the expand button in the upper right corner.",
+  image: stepOneImg,
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
-  bullets: [
-    {
-      title: "Mobile Responsive Template",
-      desc: "Onlyface is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
-    },
-    {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Onlyface comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
-    },
-  ],
+  title: "Click setting",
+  desc: "Click the settings button below.",
+  image: stepTwoImg,
+};
+const benefitThree = {
+  title: "Click Delete Account",
+  desc: "Click the 'Delete Account' red text below.",
+  image: stepThreeImg,
+};
+const benefitFour = {
+  title: "Confirm deletion",
+  desc: "After clicking 'Yes,' your account will be temporarily deactivated. After 30 days, your account and related activities will be automatically deleted.",
+  image: stepFourImg,
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo, benefitThree, benefitFour };
