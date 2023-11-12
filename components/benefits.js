@@ -9,12 +9,12 @@ const Benefits = (props) => {
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
         <div
           className={`flex items-center justify-center w-full lg:w-1/2 ${
-            props.imgPos === "right" ? "lg:order-1" : ""
+            props.imgPos === "right" ? "lg:order-1" : "md:pr-5"
           }`}>
           <div>
             <Image
               src={data.image}
-              width="521"
+              width="450"
               height="auto"
               alt="Benefits"
               className={"object-cover"}
@@ -29,8 +29,8 @@ const Benefits = (props) => {
             data.imgPos === "right" ? "lg:justify-end" : ""
           }`}>
           <div>
-            <div className="flex flex-col w-full mt-4">
-              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            <div className={`flex flex-col w-full mt-4 md:pl-12`}>
+              <h3 className="max-w-2xl mt-3 text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
                 {data.title}
               </h3>
 
@@ -38,8 +38,6 @@ const Benefits = (props) => {
                 {data.desc}
               </p>
             </div>
-
-           
           </div>
         </div>
       </Container>

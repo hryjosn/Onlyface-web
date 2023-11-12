@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import Astro from "../public/img/Astro.png";
+import Rogue from "../public/img/Rogue.png";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
             Upload a selfie, get approved by our vibrant community, and connect with like-minded individuals. Real connections, real people, real beauty.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            <div className="flex flex-col items-start space-y-3 pt-6 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
                 href="https://web3templates.com/templates/Onlyface-landing-page-template-for-startups"
                 target="_blank"
@@ -33,10 +34,19 @@ const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={Rogue}
               width="616"
-              height="617"
-              className={"object-cover"}
+              height="700"
+              className={"object-cover dark:hidden"}
+              alt="Hero Illustration"
+              loading="eager"
+              placeholder="blur"
+            />
+            <Image
+              src={Astro}
+              width="616"
+              height="700"
+              className={"object-cover hidden dark:block"}
               alt="Hero Illustration"
               loading="eager"
               placeholder="blur"
