@@ -2,7 +2,8 @@ import Image from "next/image";
 import Container from "./container";
 import Astro from "../public/img/Astro.png";
 import Rogue from "../public/img/Rogue.png";
-
+import appStoreIcon from "../public/img/App-Store-Icon.png"
+import googlePlayIcon from "../public/img/Google-Play-Icon.png"
 const Hero = () => {
   return (
     <>
@@ -19,15 +20,21 @@ const Hero = () => {
             Upload a selfie, get approved by our vibrant community, and connect with like-minded individuals. Real connections, real people, real beauty.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 pt-6 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="https://web3templates.com/templates/Onlyface-landing-page-template-for-startups"
-                target="_blank"
-                rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                Download for Free
-              </a>
-             
+            <div className="flex items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            <Image
+              src={googlePlayIcon}
+              width="1000"
+              height="1000"
+              alt="googlePlayIcon"
+              className="w-[200px] h-[205px]"
+            />
+            <Image
+              src={appStoreIcon}
+              width="1000"
+              height="1000"
+              alt="appStoreIcon"
+              className="w-[200px] h-[205px]"
+            />
             </div>
           </div>
         </div>
