@@ -35,22 +35,27 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How does Onlyface work?",
+    answer: "Onlyface is a social networking app where users connect based on their physical appearance. Upon sign-up, users upload a selfie photo and enter a pending status. To become fully active, more than 1/3 of the total users must approve their photo.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "What is the purpose of the pending status?",
+    answer: "The pending status allows existing users to vote on new members' photos, ensuring that the community maintains certain standards of attractiveness.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "What kind of photo should I upload for my profile?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Choose a high-quality selfie that accurately represents your appearance. Ensure good lighting and avoid filters or heavily edited photos.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "How long does it take to get approval from the community?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "The approval process depends on the number of users and how quickly they vote. It may vary, but we aim for a timely and fair process.",
+  },
+  {
+    question: "What happens if I don't get enough votes for approval?",
+    answer:
+      "If you don't receive enough votes, you will remain in pending status. You can continue to engage with the community and try again.",
   },
 ];
 

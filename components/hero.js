@@ -4,6 +4,7 @@ import Astro from "../public/img/Astro.png";
 import Rogue from "../public/img/Rogue.png";
 import appStoreIcon from "../public/img/App-Store-Icon.png"
 import googlePlayIcon from "../public/img/Google-Play-Icon.png"
+import Link from "next/link"
 const Hero = () => {
   return (
     <>
@@ -21,20 +22,25 @@ const Hero = () => {
             </p>
 
             <div className="flex items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-            <Image
-              src={googlePlayIcon}
-              width="1000"
-              height="1000"
-              alt="googlePlayIcon"
-              className="w-[200px] h-[205px]"
-            />
-            <Image
-              src={appStoreIcon}
-              width="1000"
-              height="1000"
-              alt="appStoreIcon"
-              className="w-[200px] h-[205px]"
-            />
+              <Link href={'https://play.google.com/store/apps/details?id=com.onlyface'} target="_blank">
+                <Image
+                src={googlePlayIcon}
+                width="1000"
+                height="1000"
+                alt="googlePlayIcon"
+                className="w-[200px] h-[205px]"
+              />
+              </Link>
+              <Link href={'https://apps.apple.com/pl/app/onlyface/id6467753501'} target="_blank">
+                <Image
+                src={appStoreIcon}
+                width="1000"
+                height="1000"
+                alt="appStoreIcon"
+                className="w-[200px] h-[205px]"
+              />
+              </Link>
+           
             </div>
           </div>
         </div>
