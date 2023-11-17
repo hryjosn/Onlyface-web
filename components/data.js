@@ -38,18 +38,19 @@ import stepFourImg from "../public/img/deleteAccountStep/step4.png";
 const homeContent1 = {
   title: "Member Approval System",
   desc: "Efficient Validation: Our Member Approval System simplifies the vetting process, enabling verified members to review and authorize new applicants, ensuring a trusted and secure community",
-  image: homePicture1,
+  image: 'https://image.onlyface.app/approval_page.webp',
 };
 
 const homeContent2 = {
   title: "Share Your Own Story",
   desc: "Narrate Your Experience: With 'Share Your Own Story,' you can craft and express your personal experiences, connecting with others through compelling narratives.",
-  image: homePicture2,
+  image: 'https://image.onlyface.app/demo_1.webp',
+
 };
 const homeContent3 = {
   title: "Selected Photo Network",
   desc: "Curate and Share: Our platform features a selected photo network, allowing users to showcase and discover exceptional images, fostering a vibrant community of visual storytelling and inspiration.",
-  image: homePicture3,
+  image: 'https://image.onlyface.app/demo_2.webp',
 };
 const benefitOne = {
   title: "Step 1",

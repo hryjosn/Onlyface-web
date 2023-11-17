@@ -4,4 +4,12 @@ module.exports = {
     defaultLocale: "en",
   },
   output: "standalone",
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'image.onlyface.app',
+      },
+    ],
+  }
 };
