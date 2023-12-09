@@ -25,11 +25,7 @@ const Home = () => {
       </Head>
       <Navbar />
       <Hero />
-      <SectionTitle
-        pretitle="Onlyface Benefits"
-        title=" Why should you use this app">
-        Unlock a world of authentic connections on Onlyface, where your unique beauty opens the door to meaningful relationships. Sign up today with just a selfie, enter our curated community, and experience connections that matter. Our exclusive approval system, where more than some of our vibrant community gives the green light, ensures you join a network of good-looking individuals who appreciate genuine connections. Embrace your beauty and find your tribe – Onlyface, where real connections begin.
-      </SectionTitle>
+     
       <Benefits data={homeContent1} />
       <Benefits imgPos="right" data={homeContent2} />
       <Benefits data={homeContent3} />
@@ -48,6 +44,11 @@ const Home = () => {
         Use this section to highlight your popular customers.
       </SectionTitle>
       <Testimonials /> */}
+       <SectionTitle
+        pretitle="Onlyface Benefits"
+        title=" Why should you use this app">
+        Unlock a world of authentic connections on Onlyface, where your unique beauty opens the door to meaningful relationships. Sign up today with just a selfie, enter our curated community, and experience connections that matter. Our exclusive approval system, where more than some of our vibrant community gives the green light, ensures you join a network of good-looking individuals who appreciate genuine connections. Embrace your beauty and find your tribe – Onlyface, where real connections begin.
+      </SectionTitle>
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
