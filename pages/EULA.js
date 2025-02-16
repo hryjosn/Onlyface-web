@@ -1,6 +1,6 @@
 import React from "react";
 
-const PrivacyPolicy = () => {
+const EULA = () => {
   return (
     <div className="flex justify-center bg-white">
       
@@ -6137,4 +6137,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default EULA;
